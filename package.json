@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-downloader-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for downloading video from TikTok without watermark.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "tiktok",
+    "video",
+    "telegram",
+    "bot"
+  ],
+  "author": "Nikita Lopanov",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
