@@ -18,7 +18,7 @@ bot.on('message', (msg) => {
 
   if (message !== '/start') {
     if (message.match('https:\/\/[a-zA-Z]+.tiktok.com\/')) {
-      downloadVideo(message).then((videoLink) => bot.sendVideo(chatId, videoLink, { caption: 'Рад был помочь! Ваш, @GetTTVideoBot' }))
+      downloadVideo(message).then((videoLink) => bot.sendVideo(chatId, videoLink, { caption: 'by Aiman, @Aimanx2_bot' }))
     } else {
       bot.sendMessage(chatId, '⛔️ Anda menghantar pautan yang tidak disokong atau yang salah oleh bot!')
     }
